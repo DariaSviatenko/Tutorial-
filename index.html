@@ -1,12 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>привіт</h1>
-</body>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 1</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="/">
+        <img
+          src="./images/logo.svg"
+          width="165"
+          height="70"
+          alt="Житловий комплекс HouseVop"
+        />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Про комплекс</a>
+          </li>
+          <li>
+            <a href="#">Район</a>
+          </li>
+          <li>
+            <a href="#">Каталог квартир</a>
+          </li>
+          <li>
+            <a href="#">Іпотека</a>
+          </li>
+          <li>
+            <a href="#">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Житловий комплекс в історичному центрі</h1>
+        <a href="#benefits">
+          <img src="./images/mouse.svg" alt="Перейти до наступної секції" />
+        </a>
+        <address>
+          <a href="#">вул. Садова 10-15</a>
+          <a href="tel:+380991234567">+38 (099) 123-45-67</a>
+        </address>
+      </section>
+      <section id="#benefits">
+        <h2>Наші переваги</h2>
+        <ul>
+          <li><img src="#" alt="" /> <span></span></li>
+          <li><img src="#" alt="" /> <span></span></li>
+          <li><img src="#" alt="" /> <span></span></li>
+          <li><img src="#" alt="" /> <span></span></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Ціни</h2>
+        <table>
+          <caption>
+            Каталог типів квартир за ціною
+          </caption>
+          <thead>
+            <tr>
+              <th>Квартира</th>
+              <th>Поверховість</th>
+              <th>Ціна</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Стандарт</td>
+              <td>1</td>
+              <td>30000$</td>
+            </tr>
+            <tr>
+              <td>Комфорт</td>
+              <td>2</td>
+              <td>40000$</td>
+            </tr>
+            <tr>
+              <td>Люкс</td>
+              <td>3</td>
+              <td>50000$</td>
+            </tr>
+            <tr>
+              <td>Супер Люкс</td>
+              <td>4</td>
+              <td>60000$</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Разом</td>
+              <td>10</td>
+              <td>180000$</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <section>
+        <h2>Хочете подивитися?</h2>
+        <p>
+          Житловий комплекс в історичному центрі міста HouseVOP завершив
+          будівництво та здав об’єкт в експлаутацію
+          <time datetime="2021-03-11">11 березня 2021 року</time>. Якщо ви маєте
+          бажання подивитися квартиру, чекаємо на Вас. Тут просто повинен бути
+          будь-який текст, для того щоб збільшити його об’єм, тому що фанатазії
+          придумати щось нове - вже немає. Якщо у когось є ідея - завжди велкам!
+        </p>
+        <button>Подивитись район</button>
+      </section>
+      <section>
+        <h2>Відео огляд житлового комплексу</h2>
+        <video controls>
+          <source src="./asserts/videos/test_video.webm" type="video/webm" />
+          <source src="./asserts/videos/test_video.mp4" type="video/mp4" />
+          Нажаль, це відео не підтримується вашим браузером :(
+        </video>
+        <audio controls>
+          <source src="./asserts/audios/test_audio.mp3" type="audio/mp3" />
+        </audio>
+      </section>
+      <section>
+        <h2>Район на мапі</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.210568715073!2d-47.89576218546453!3d-15.79284718905223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2fe53c69c215%3A0xd7704b3f4eccf40d!2sMeli%C3%A1%20Brasil%2021!5e0!3m2!1sru!2sua!4v1654801157897!5m2!1sru!2sua"
+          width="1110"
+          height="360"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <address>
+        <ul>
+          <li>Адреса: <a href="#">вул. Садова 10-15</a></li>
+          <li>Телефон: <a href="+380991234567"> +38 (099) 123-45-67</a></li>
+          <li>
+            Відділ продажу: <time datetime="10:00">10:00</time> -
+            <time datetime="20:00">20:00</time>
+          </li>
+          <li>E-mail: <a href="mailto:vip@housevip.ru">vip@housevip.ru</a></li>
+        </ul>
+        <ul>
+          <li><img src="#" alt="" /></li>
+          <li><img src="#" alt="" /></li>
+          <li><img src="#" alt="" /></li>
+          <li><img src="#" alt="" /></li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>
